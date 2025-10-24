@@ -1,1 +1,5 @@
-Everything should be working as I expected to work. But if I have one complain is that when the consoles gives you some messages as the ones when someone disconnect from the server they duplicate and I dont have much idea of why?
+
+To test how the chat works, you need to open both projects in Eclipse. First, start JavaServer by opening the src-JavaServerPackage folder, right-click on javaServerApp, and then run it as Java Application 1. At first, it will ask you for the port number you want to use. Enter the number and the program will create a txt file to save the port.
+Next, to test it, you need to go to the other project, JavaClientApp-Src-JavaClient, right-click on ClientUI-Run as: JavaApplication. 
+This will show you the chat user interface. As you can see, you can change the port, but if you decide to do so, you will need to restart the server by following the same steps explained above for the port.
+To test it better, I recommend that you open two or more chats in the same way you open the first user interface, enter the names you want, and start chatting. You will notice that the program understands which of all the windows is speaking and, instead of saying the name you entered, it will say “You.”
